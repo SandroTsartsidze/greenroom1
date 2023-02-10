@@ -1,0 +1,59 @@
+.secondPart {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100vh;
+}
+.secondPart-mainText {
+    font-size: 2vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+}
+.secondPart-description {
+    font-size: 1.1vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+}
+.secondPart-textArea {
+    position: absolute;
+    top: 15%;
+    left: 52%;
+    width: 40%;
+    height: 40vh;
+    @include flex(space-around, column);
+}
+.secondPartImg {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    left: 5%;
+    width: 38%;
+}
+.stars {
+    position: relative;
+    top: 55%;
+    left: 52%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    padding-top: 1%;
+}
+.stars p {
+    padding-left: 5%;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.underSecondPartText {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8vw;
+    font-weight: 500;
+}
+body {
+    background: $background_blue;
+}

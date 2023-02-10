@@ -1,0 +1,64 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contact {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    top: 372%;
+}
+.contactText {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 2vw;
+    font-weight: 500;
+}
+.contactItems {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+}
+.contactItems div {
+    position: relative;
+    top: 40%;
+    width: 27%;
+    height: 35vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+    border-radius: 15px;
+}
+.ask {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ask:hover {
+    box-shadow: 0px 2px 2px 2px rgb(190, 189, 189);
+}
+.call:hover {
+    box-shadow: 0px 2px 2px 2px rgb(190, 189, 189);
+}
+.contactItems img {
+    padding-bottom: 8%;
+}
+.contactItems p {
+    width: 70%;
+}
+.socials {
+    position: absolute;
+    width: 12%;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%);
+}
