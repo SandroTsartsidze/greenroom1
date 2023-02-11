@@ -7,14 +7,18 @@
   import Footer from "$shared/footer/footer.svelte";
   import Services from "$shared/services/services.svelte";
   import SecondPart from "./shared/secondPart/secondPart.svelte";
+  import Signup from "./signUp/signup.svelte";
 </script>
 
 <main>
-  <Navbar menu={interfaces.navbar} />
+
+  <Signup  />
+
+  <!-- <Navbar menu={interfaces.navbar} />
   <Home home={interfaces.home} />
   <SecondPart />
   <ThirdPart  />
   <Services />
   <Contact />
-  <Footer />
+  <Footer /> -->
 </main>

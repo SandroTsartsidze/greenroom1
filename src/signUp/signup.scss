@@ -1,0 +1,86 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.signUp {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 50%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .signUpText {
+        position: relative;
+        top: 7%;
+        font-size: 1.5vw;
+        font-weight: 500;
+    }
+    .help {
+        position: relative;
+        top: 12%;
+        font-weight: 400;
+    }
+    .checkBox {
+        position: relative;
+        display: flex;
+        top: 19%;
+        align-items: center;
+        width: 80%;
+        justify-content: space-around;
+    }
+    .signUpForm {
+        position: relative;
+        width: 100%;
+        top: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 25vh;
+        justify-content: space-around;
+
+        label {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 30vh;
+            justify-content: space-around;
+
+            input {
+                width: 50%;
+                height: 4vh;
+                border: none;
+                border-radius: 5px;
+                outline: none;
+                padding-left: 2%;
+                font-size: 1vw;
+            }
+        }
+    }
+    .linkedIn {
+        position: relative;
+        top: 38%;
+        width: 25%;
+        height: 7vh;
+        border-radius: 5px;
+        background: rgb(32, 142, 244);
+    }
+    .login {
+        position: relative;
+        top: 25%;
+        left: 0%;
+        a {
+            text-decoration:underline;
+        }
+        a:hover {
+            color: rgb(32, 142, 244);
+        }
+    }
+    .agreeTerm {
+        position: relative;
+        width: 70%;
+        top: 47%;
+    }
+}

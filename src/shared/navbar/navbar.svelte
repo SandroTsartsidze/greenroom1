@@ -1,6 +1,7 @@
 <script>
   import Button from "$shared/button/button.svelte";
   import logo from "$assets/Images/icons/logo.png";
+  import Signup from "../../signUp/signup.svelte";
   export let menu;
 </script>
 
@@ -13,7 +14,7 @@
       {/each}
     </div>
     <a href="#" class="login">Login</a>
-    <Button><button class="join">Join now</button></Button>
+    <Button><button class="join"><a>Join now</a></button></Button>
   </div>
 </div>
 

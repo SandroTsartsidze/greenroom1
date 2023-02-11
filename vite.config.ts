@@ -9,7 +9,7 @@ export default defineConfig({
 			'~': fileURLToPath(new URL('./', import.meta.url)),
 			'@': fileURLToPath(new URL('./node_modules/', import.meta.url)),
 			'$assets': fileURLToPath(new URL('./src/assets/', import.meta.url)),
-			'$service': fileURLToPath(new URL('./src/service/', import.meta.url)),
+			'$services': fileURLToPath(new URL('./src/services/', import.meta.url)),
 			'$shared': fileURLToPath(new URL('./src/shared/', import.meta.url)),
 		},
 		extensions: [".js", ".json", ".tsx", ".ts", "scss"],
